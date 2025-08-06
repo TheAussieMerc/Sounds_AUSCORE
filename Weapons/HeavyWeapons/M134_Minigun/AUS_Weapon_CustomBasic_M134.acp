@@ -79,6 +79,21 @@ AudioClass {
    }
   }
  }
+ constants {
+  ConstantClass {
+   id 14348
+   name "Constant 14"
+   version 5
+   tl 167 -218
+   "Constant values" {
+    IOPConstantsValueClass Offset {
+     Key "Offset"
+     Value 300
+     Port 1
+    }
+   }
+  }
+ }
  banks_local {
   BankLocalClass {
    id 2052
@@ -109,7 +124,7 @@ AudioClass {
    id 3076
    name "Firing Loop"
    version 7
-   tl 230.84 -211.315
+   tl 373.84 -211.315
    ins {
     ConnectionsClass connections {
      id 0
@@ -120,9 +135,18 @@ AudioClass {
       }
      }
     }
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 14348
+       port 1
+      }
+     }
+    }
    }
    pi {
-    1 0
+    17 0
    }
    "Loop count" 255
    "Infinite loop" 1
