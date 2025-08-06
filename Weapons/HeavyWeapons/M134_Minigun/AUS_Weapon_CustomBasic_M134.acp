@@ -135,6 +135,7 @@ AudioClass {
       ConnectionClass connection {
        id 1037
        port 5
+<<<<<<< HEAD
       }
      }
     }
@@ -144,6 +145,8 @@ AudioClass {
       ConnectionClass connection {
        id 14348
        port 1
+=======
+>>>>>>> parent of 2046771 (Update AUS_Weapon_CustomBasic_M134.acp)
       }
      }
     }
