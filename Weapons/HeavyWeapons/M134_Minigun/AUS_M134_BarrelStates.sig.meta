@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{460B3DC7AE57219A}Sounds/Weapons/HeavyWeapons/M134_Minigun/AUS_M134_BarrelStates.sig"
+ Configurations {
+  AudioSignalResourceClass PC {
+  }
+  AudioSignalResourceClass XBOX_ONE : PC {
+  }
+  AudioSignalResourceClass XBOX_SERIES : PC {
+  }
+  AudioSignalResourceClass PS4 : PC {
+  }
+  AudioSignalResourceClass PS5 : PC {
+  }
+  AudioSignalResourceClass HEADLESS : PC {
+  }
+ }
+}
