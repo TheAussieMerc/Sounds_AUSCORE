@@ -3070,7 +3070,7 @@ AudioClass {
    pi {
     33 0
    }
-   Volume 6
+   Volume -12
    "Loop count" 255
    "Infinite loop" 1
    "Termination Fade Out" 10
@@ -3375,6 +3375,7 @@ AudioClass {
    pi {
     33 0
    }
+   Volume -60
    "Loop count" 255
    "Infinite loop" 1
    "Termination Fade Out" 10
@@ -3719,7 +3720,7 @@ AudioClass {
    pi {
     33 0
    }
-   Volume 3
+   Volume -60
    Pitch -0.5
    "Pitch variance" 1
    "Loop count" 255

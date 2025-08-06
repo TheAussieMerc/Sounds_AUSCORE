@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{79FD8FE7F5AFECD6}Sounds/Weapons/HeavyWeapons/M134_Minigun/AUS_Weapon_CustomBasic_M134.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}
