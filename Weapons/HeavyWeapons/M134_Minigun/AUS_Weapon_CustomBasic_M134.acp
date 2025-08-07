@@ -82,27 +82,12 @@ AudioClass {
    }
   }
  }
- constants {
-  ConstantClass {
-   id 14348
-   name "Constant 14"
-   version 5
-   tl 167 -218
-   "Constant values" {
-    IOPConstantsValueClass Offset {
-     Key "Offset"
-     Value 300
-     Port 1
-    }
-   }
-  }
- }
  banks_local {
   BankLocalClass {
    id 2052
    name "Spinup"
    version 7
-   tl 232.485 -383.73
+   tl 238.485 -304.73
    ins {
     ConnectionsClass connections {
      id 0
@@ -117,6 +102,11 @@ AudioClass {
    pi {
     1 0
    }
+   "Termination Fade Out" 10
+   Resampler Point
+   "Fade out function" Exp
+   "Fade out time" 1250
+   "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
      Filename "{E6BBC424CF998F80}Sounds/Weapons/HeavyWeapons/M134_Minigun/Samples/AUS_M134_MinigunWindup.wav"
@@ -127,7 +117,7 @@ AudioClass {
    id 3076
    name "Firing Loop"
    version 7
-   tl 373.84 -211.315
+   tl 239.84 -223.315
    ins {
     ConnectionsClass connections {
      id 0
@@ -139,6 +129,7 @@ AudioClass {
       }
      }
     }
+<<<<<<< Updated upstream
     ConnectionsClass connections {
      id 4
      links {
@@ -150,17 +141,18 @@ AudioClass {
       }
      }
     }
+=======
+>>>>>>> Stashed changes
    }
    pi {
-    17 0
+    1 0
    }
    "Loop count" 255
    "Infinite loop" 1
-   "Termination Fade Out" 350
+   "Termination Fade Out" 25
    Resampler FIR_4
-   Offset 630
    "Fade out function" Exp
-   "Fade out time" 400
+   "Fade out time" 6000
    Samples {
     AudioBankSampleClass Sample {
      Filename "{E9D1F29D7E93763E}Sounds/Weapons/HeavyWeapons/M134_Minigun/Samples/AUS_M134_MinigunLoop.wav"
@@ -171,7 +163,7 @@ AudioClass {
    id 4100
    name "Spindown"
    version 7
-   tl 234.485 -72.64
+   tl 240.485 -141.64
    ins {
     ConnectionsClass connections {
      id 0
@@ -186,7 +178,10 @@ AudioClass {
    pi {
     1 0
    }
-   Offset 450
+   "Termination Fade Out" 10
+   Resampler Point
+   "Fade out function" Exp
+   "Fade out time" 2250
    Samples {
     AudioBankSampleClass Sample {
      Filename "{7D4FACB06CE0477A}Sounds/Weapons/HeavyWeapons/M134_Minigun/Samples/AUS_M134_MinigunWindDown.wav"
