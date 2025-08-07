@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E9D1F29D7E93763E}Sounds/Weapons/HeavyWeapons/M134_Minigun/Samples/MinigunLoop.wav"
+ Name "{E9D1F29D7E93763E}Sounds/Weapons/HeavyWeapons/M134_Minigun/Samples/AUS_M134_MinigunLoop.wav"
  Configurations {
   WAVResourceClass PC : "{F72B05D02F3F135E}Configs/System/ResourceTypes/PC/Sound.conf" {
   }
